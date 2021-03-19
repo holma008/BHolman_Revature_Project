@@ -1,25 +1,22 @@
 package com.app.bank.model;
 
-import java.util.Date;
-
 public class User {
 
 	private int userId;
 	private String name;
 	private String email;
-	private char userType;
+	private String userType;
 	private String password;
-	private int phoneNumber;
-	private String country;
+	private String phoneNumber;
 	private String address;
-	private Date dateOfBirth;
+	private String dateOfBirth;
 
 	public User() {
 		
 	}
 	
-	public User(int userId, String name, String email, char userType, String password, int phoneNumber, String country,
-			String address, Date dateOfBirth) {
+	public User(int userId, String name, String email, String userType, String password, String phoneNumber,
+			String address, String dateOfBirth) {
 		super();
 		this.userId = userId;
 		this.name = name;
@@ -27,7 +24,6 @@ public class User {
 		this.userType = userType;
 		this.password = password;
 		this.phoneNumber = phoneNumber;
-		this.country = country;
 		this.address = address;
 		this.dateOfBirth = dateOfBirth;
 	}
@@ -56,11 +52,11 @@ public class User {
 		this.email = email;
 	}
 
-	public char getUserType() {
+	public String getUserType() {
 		return userType;
 	}
 
-	public void setUserType(char userType) {
+	public void setUserType(String userType) {
 		this.userType = userType;
 	}
 
@@ -72,20 +68,12 @@ public class User {
 		this.password = password;
 	}
 
-	public int getPhoneNumber() {
+	public String getPhoneNumber() {
 		return phoneNumber;
 	}
 
-	public void setPhoneNumber(int phoneNumber) {
+	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
-	}
-
-	public String getCountry() {
-		return country;
-	}
-
-	public void setCountry(String country) {
-		this.country = country;
 	}
 
 	public String getAddress() {
@@ -96,18 +84,18 @@ public class User {
 		this.address = address;
 	}
 
-	public Date getDateOfBirth() {
+	public String getDateOfBirth() {
 		return dateOfBirth;
 	}
 
-	public void setDateOfBirth(Date dateOfBirth) {
+	public void setDateOfBirth(String dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", name=" + name + ", email=" + email + ", userType=" + userType
-				+ ", password=" + password + ", phoneNumber=" + phoneNumber + ", country=" + country + ", address="
-				+ address + ", dateOfBirth=" + dateOfBirth + "]";
+				+ ", password=" + password + ", phoneNumber=" + phoneNumber + ", address=" + address 
+				+ ", dateOfBirth=" + dateOfBirth + "]";
 	}
 }

@@ -4,9 +4,7 @@ import com.app.bank.exception.BusinessException;
 
 public interface AccountService {
 
-	public int checkBalance(int userId, int accountNum) throws BusinessException;
-	public int approveAccount(int userId, int empId) throws BusinessException;
-	public int withdrawFunds(int userId, int accountNum) throws BusinessException;
-	public int depositFunds(int userId, int accountNum) throws BusinessException;
-	public int transferFunds(int userId, int accountSend, int accountRec) throws BusinessException;
+	public int updateAccountBalance(int accNum, double balance) throws BusinessException;
+	public int updateAccountStatus(int accNum, boolean approved, int approvedBy) throws BusinessException;
+	public int rejectAccount(int accNum) throws BusinessException;
 }

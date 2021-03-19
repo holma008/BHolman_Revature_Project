@@ -13,17 +13,4 @@ public class TransactionDAOImpl implements TransactionDAO{
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	@Override
-	public List<Transaction> pullTransactionDataByAccount(int accountNum) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Transaction> pullTransactionDataByUser(int userNum) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }
