@@ -1,6 +1,9 @@
 package com.app.bank.main;
 
+import java.sql.Date;
+import java.text.ParseException;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,8 +20,11 @@ import com.app.bank.model.Account;
 import com.app.bank.model.Transaction;
 import com.app.bank.model.UnapprovedAccount;
 import com.app.bank.model.User;
+import com.app.bank.transaction.service.TransactionService;
+import com.app.bank.transaction.service.impl.TransactionServiceImpl;
 import com.app.bank.user.service.UserService;
 import com.app.bank.user.service.impl.UserServiceImpl;
+
 import com.app.bank.exception.BusinessException;
 
 public class BankMain {
@@ -32,7 +38,7 @@ public class BankMain {
 		UserService userService = new UserServiceImpl();
 		CustomerService customerService = new CustomerServiceImpl();
 		AccountService accountService = new AccountServiceImpl();
-
+		TransactionService transactionService = new TransactionServiceImpl();
 		int accNum = 0;
 		do {
 			// main menu
@@ -50,9 +56,9 @@ public class BankMain {
 			}
 			switch (ch) {
 			case 1:
+				// create customer account
 				User user = new User();
 				// get user info
-				// create customer account
 				log.info("enter name");
 				user.setName(scanner.nextLine());
 				log.info("enter email");
@@ -63,8 +69,9 @@ public class BankMain {
 				user.setPhoneNumber(scanner.nextLine());
 				log.info("enter address");
 				user.setAddress(scanner.nextLine());
-				log.info("enter date of birth YYYY-MM-DD");
-				user.setDateOfBirth(scanner.nextLine());
+				log.info("enter date of birth mm-dd-yyyy");
+				user.setDateOfBirth(
+						Date.valueOf(LocalDate.parse(scanner.nextLine(), DateTimeFormatter.ofPattern("MM-dd-yyyy"))));
 				try {
 					if (userService.registerCustomer(user) == 1) {
 						log.info("Customer registered successfully");
@@ -90,6 +97,7 @@ public class BankMain {
 				}
 				if (u.getUserType().matches("c")) {// if user is customer
 					int cu = 0;
+					double balance = 0;
 					do {
 						log.info("Customer Options Menu");
 						log.info("------------------------");
@@ -101,12 +109,11 @@ public class BankMain {
 						log.info("6) accept money transfer");
 						log.info("7) return to main menu");
 						log.info("please enter an appropriate option(1-7)");
-						cu = Integer.parseInt(scanner.nextLine());// check int
+						cu = Integer.parseInt(scanner.nextLine());
 						switch (cu) {
 						case 1:
 							// apply for account with starting balance
 							Account account = new Account();
-							double balance = 0;
 							log.info("Applying for an account\nEnter starting balance of account");
 							// get account details
 							balance = Integer.parseInt(scanner.nextLine());
@@ -124,79 +131,121 @@ public class BankMain {
 							break;
 						case 2:
 							// view balance of account
-							// enter account number
-							System.out.println("view balance");
+							log.info("enter the number of the account you wish to view the balance of");
 							try {
 								accNum = Integer.parseInt(scanner.nextLine());
-								balance = 0;
 								balance = customerService.checkBalance(u.getUserId(), accNum);
-								// message balance
+								log.info("the balance of your account number " + accNum + ": " + balance);
 							} catch (NumberFormatException e) {
-								// message here
+								log.warn("choice should be number only");
 							} catch (BusinessException e) {
-								// System.out.println(e.getMessage());
+								log.warn(e.getMessage());
 							}
 							break;
 						case 3:
 							// make withdrawal
-							// enter account number
-							System.out.println("make withdrawal");
+							log.info("enter the number of the account from which you wish to withdraw funds");
 							try {
 								accNum = Integer.parseInt(scanner.nextLine());
-								Account a = new Account();
-								a = customerService.withdrawFunds(u.getUserId(), accNum);
-								// message balance
-								// enter amount to withdraw
-								double remainder = a.getBalance();
-								// remainder -= withdrawal
-								try {
-									if (accountService.updateAccountBalance(accNum, remainder) == 1)
-										;
-									// withdrawal successful
-									// new balance
-								} catch (BusinessException e) {
-									// System.out.println(e.getMessage());
+								balance = customerService.checkBalance(u.getUserId(), accNum);
+								log.info("current balance of your account number " + accNum + ": " + balance);
+							} catch (NumberFormatException e) {
+								log.warn("choice should be number only");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+							}
+							log.info("enter ammount to withdraw");
+							try {
+								double withdraw = Integer.parseInt(scanner.nextLine());
+								if (withdraw > balance) {
+									log.warn("invalid entry, account does not have sufficient funds");
+								} else if (withdraw < 0) {
+									log.warn("invalid entry, cannot withdraw negative funds");
+								} else {
+									double remainder = balance - withdraw;
+									try {
+										if (transactionService.WithdrawalMade(u.getUserId(), accNum, withdraw) == 1) {
+											try {
+												if (accountService.updateAccountBalance(accNum, remainder) == 1) {
+													balance = customerService.checkBalance(u.getUserId(), accNum);
+													log.info("withdrawl successful, new balance: " + balance);
+												}
+											} catch (BusinessException e) {
+												log.warn(e.getMessage());
+											} catch (NumberFormatException e) {
+												log.warn("choice should be number only");
+											}
+										}
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									} catch (NumberFormatException e) {
+										log.warn("choice should be number only");
+									}
 								}
 							} catch (NumberFormatException e) {
-								// message here
-							} catch (BusinessException e) {
-								// System.out.println(e.getMessage());
+								log.warn("choice should be number only");
 							}
 							break;
 						case 4:
 							// make deposit
-							// enter account number
-							System.out.println("deposit");
+							log.info("enter the number of the account into which you wish to deposit funds");
 							try {
 								accNum = Integer.parseInt(scanner.nextLine());
-								Account a = new Account();
-								a = customerService.depositFunds(u.getUserId(), accNum);
-								// message balance
-								// enter amount to deposit
-								double total = a.getBalance();
-								// total += deposit
-								try {
-									if (accountService.updateAccountBalance(accNum, total) == 1) {
-										// deposit successful
-										// new balance
-									}
-								} catch (BusinessException e) {
-									// System.out.println(e.getMessage());
-								}
+								balance = customerService.checkBalance(u.getUserId(), accNum);
+								log.info("current balance of your account number " + accNum + ": " + balance);
 							} catch (NumberFormatException e) {
-								// message here
+								log.warn("choice should be number only");
 							} catch (BusinessException e) {
-								// System.out.println(e.getMessage());
+								log.warn(e.getMessage());
+							}
+							log.info("enter ammount to deposit");
+							try {
+								double deposit = Integer.parseInt(scanner.nextLine());
+								if (deposit < 0) {
+									log.info("invalid entry, cannot deposit negative funds");
+								} else {
+									double remainder = balance + deposit;
+									try {
+										if(transactionService.DepositMade(u.getUserId(), accNum, deposit) == 1) {
+									
+									try {
+										if (accountService.updateAccountBalance(accNum, remainder) == 1) {
+											balance = customerService.checkBalance(u.getUserId(), accNum);
+											log.info("deposit successful, new balance: " + balance);
+										}
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									} catch (NumberFormatException e) {
+										log.warn("choice should be number only");
+									}
+										}
+								}catch (BusinessException e) {
+									log.warn(e.getMessage());
+								} catch (NumberFormatException e) {
+									log.warn("choice should be number only");
+								}
+							}
+							} catch (NumberFormatException e) {
+								log.warn("choice should be number only");
 							}
 							break;
 						case 5:
 							// make money transfer
 							// not quite a withdrawal
-							System.out.println("money transfer");
+							log.info("enter the number of the account from which you wish to transfer funds");
+							try {
+								accNum = Integer.parseInt(scanner.nextLine());
+								balance = customerService.checkBalance(u.getUserId(), accNum);
+								log.info("current balance of your account number " + accNum + ": " + balance);
+							} catch (NumberFormatException e) {
+								log.warn("choice should be number only");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+							}
 							try {
 								accNum = Integer.parseInt(scanner.nextLine());
 								Account a = new Account();
-								a = customerService.withdrawFunds(u.getUserId(), accNum);
+								// a = customerService.withdrawFunds(u.getUserId(), accNum);
 								// message balance
 								// enter amount to transfer
 								// enter account to transfer to
@@ -208,25 +257,23 @@ public class BankMain {
 										// new balance
 									}
 								} catch (BusinessException e) {
-									// System.out.println(e.getMessage());
+									log.warn(e.getMessage());
 								}
 							} catch (NumberFormatException e) {
-								// message here
-							} catch (BusinessException e) {
-								// System.out.println(e.getMessage());
+								log.warn("choice should be number only");
 							}
 							break;
 						case 6:
 							// accept money transfer
-							System.out.println("accept transfer");
+							log.info("accept transfer");
 							break;
 						case 7:
 							// return to main menu
-							System.out.println("returning to main menu");
+							log.info("returning to main menu");
 							break;
 						default:
 							// invalid option
-							System.out.println("invalid");
+							log.info("invalid");
 							break;
 						}
 					} while (cu != 7);
@@ -242,11 +289,11 @@ public class BankMain {
 						log.info("4) return to main menu");
 						log.info("please enter an appropriate option(1-4)");
 						em = Integer.parseInt(scanner.nextLine());// check int
+						int choice = 0;
 						// get input
 						switch (em) {
 						case 1:
 							// approve or reject account applications
-							int choice = 0;
 							List<UnapprovedAccount> unapprovedAccountList = new ArrayList<>();
 							do {
 								try {
@@ -265,26 +312,30 @@ public class BankMain {
 											} else {
 												int approve = 0;
 												do {
-													log.info("enter 1 to approve, 2 to reject, 3 to return to employee menu");
-													UnapprovedAccount accountChosen = unapprovedAccountList.get(choice - 1);
+													UnapprovedAccount accountChosen = unapprovedAccountList
+															.get(choice - 1);
 													log.info(accountChosen);
+													log.info(
+															"enter 1 to approve, 2 to reject, 3 to return to employee menu");
 													try {
 														approve = Integer.parseInt(scanner.nextLine());
 														if (approve == 1) {// application approved
-															if (accountService.updateAccountStatus(accountChosen.getAccountNum(), true,	u.getUserId()) == 1) {
+															if (accountService.updateAccountStatus(
+																	accountChosen.getAccountNum(), true,
+																	u.getUserId()) == 1) {
 																log.info("account approved");
 																break;
 															}
 														} else if (approve == 2) {// application rejected
-															if(accountService.rejectAccount(accountChosen.getAccountNum()) == 1) {
+															if (accountService.rejectAccount(
+																	accountChosen.getAccountNum()) == 1) {
 																log.info("account rejected");
 																break;
 															}
-														} else if(approve == 3) {
+														} else if (approve == 3) {
 															log.info("returning to employee menu");
 															break;
-														}
-														else {
+														} else {
 															log.info("invalid choice");
 														}
 													} catch (NumberFormatException e) {
@@ -306,41 +357,57 @@ public class BankMain {
 							break;
 						case 2:
 							// view customer's accounts
-							// enter customer Id of accounts you wish to view
-							System.out.println("view accounts");
-							int cusId = Integer.parseInt(scanner.nextLine());
 							try {
-								List<Account> accountList = employeeService.viewAccountByCustomerId(cusId);
-								// System.out.println("printing accounts for customer " + cusId);
-								for (Account a : accountList) {
-									// System.out.println(a);
+								List<User> customerList = employeeService.viewAllAccounts();
+								log.info("there are " + customerList.size() + " registered customer(s)");
+								for (int i = 0; i < customerList.size(); i++) {
+									log.info((i + 1) + ")" + customerList.get(i).getName());
+								}
+								log.info(customerList.size() + 1 + ")return to employee menu");
+								log.info("enter choice of customer to view accounts or exit");
+								try {
+									choice = Integer.parseInt(scanner.nextLine());
+									if (choice > 0 && choice <= customerList.size() + 1) {
+										if (choice == customerList.size() + 1) {
+											log.info("returning to employee menu");
+										} else {
+											User customerChosen = customerList.get(choice - 1);
+											List<Account> customerAccounts = employeeService
+													.viewAccountByCustomerId(customerChosen.getUserId());
+											for (Account a : customerAccounts) {
+												log.info(
+														"account number : " + a.getAccountNum() + ", account balance : "
+																+ a.getBalance() + ", date opened : " + a.getOpened());
+											}
+										}
+									}
+								} catch (NumberFormatException e) {
+									log.warn("choice should be number only");
 								}
 							} catch (BusinessException e) {
-								// System.out.println(e.getMessage());
+								log.warn(e.getMessage());
 							}
 							break;
 						case 3:
 							// view transaction log
-							System.out.println("transaction log");
 							List<Transaction> transactionList;
 							try {
 								transactionList = employeeService.pullAllTransactionData();
-								// System.out.println("Printing all teams");
+								log.info("Printing all transactions");
 								for (Transaction t : transactionList) {
-									// print t
+									log.info(t);
 								}
 							} catch (BusinessException e) {
-								// System.out.println(e.getMessage());
+								log.warn(e.getMessage());
 							}
-
 							break;
 						case 4:
 							// return to main menu
-							System.out.println("returning to main");
+							log.info("returning to main");
 							break;
 						default:
 							// invalid option
-							System.out.println("invalid");
+							log.warn("invalid");
 							break;
 						}
 					} while (em != 4);
@@ -353,7 +420,7 @@ public class BankMain {
 				break;
 			default:
 				// invalid entry
-				log.info("invalid");
+				log.warn("invalid choice");
 				break;
 			}
 		} while (ch != 3);

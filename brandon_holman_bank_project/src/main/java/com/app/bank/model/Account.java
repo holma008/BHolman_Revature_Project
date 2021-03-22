@@ -1,6 +1,6 @@
 package com.app.bank.model;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Account {
 

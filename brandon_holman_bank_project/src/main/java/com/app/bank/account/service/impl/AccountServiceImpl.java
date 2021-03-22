@@ -11,8 +11,7 @@ public class AccountServiceImpl implements AccountService {
 
 	@Override
 	public int updateAccountBalance(int accNum, double balance) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+		return accountDAO.updateAccountBalance(accNum, balance);
 	}
 
 	@Override
@@ -22,7 +21,6 @@ public class AccountServiceImpl implements AccountService {
 
 	@Override
 	public int rejectAccount(int accNum) throws BusinessException {
-		// delete row from table
 		return accountDAO.rejectAccount(accNum);
 	}
 }

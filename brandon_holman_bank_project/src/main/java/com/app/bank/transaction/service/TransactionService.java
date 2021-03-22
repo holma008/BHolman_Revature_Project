@@ -1,13 +1,9 @@
-package com.app.bank.transaction.dao;
-
-import java.util.List;
+package com.app.bank.transaction.service;
 
 import com.app.bank.exception.BusinessException;
-import com.app.bank.model.Transaction;
 
-public interface TransactionDAO {
+public interface TransactionService {
 
-	public List<Transaction> pullAllTransactionData() throws BusinessException;
 	public int WithdrawalMade(int cusId, int accountNum, double withdraw)throws BusinessException;
 	public int DepositMade(int cusId, int accountNum, double deposit) throws BusinessException;
 	public int TransferInitiated(int cusId, int accountNum) throws BusinessException;

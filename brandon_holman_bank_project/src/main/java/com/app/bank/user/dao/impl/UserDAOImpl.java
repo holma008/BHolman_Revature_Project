@@ -24,7 +24,7 @@ public class UserDAOImpl implements UserDAO{
 			preparedStatement.setString(4, user.getPassword());
 			preparedStatement.setString(5, user.getPhoneNumber());
 			preparedStatement.setString(6, user.getAddress());
-			preparedStatement.setString(7, user.getDateOfBirth());
+			preparedStatement.setDate(7, user.getDateOfBirth());
 			c = preparedStatement.executeUpdate();
 		}catch(ClassNotFoundException | SQLException e) {
 			throw new BusinessException("Internal error occured, please contact sysadmin");

@@ -1,5 +1,7 @@
 package com.app.bank.model;
 
+import java.sql.Date;
+
 public class User {
 
 	private int userId;
@@ -9,14 +11,14 @@ public class User {
 	private String password;
 	private String phoneNumber;
 	private String address;
-	private String dateOfBirth;
+	private Date dateOfBirth;
 
 	public User() {
 		
 	}
 	
 	public User(int userId, String name, String email, String userType, String password, String phoneNumber,
-			String address, String dateOfBirth) {
+			String address, Date dateOfBirth) {
 		super();
 		this.userId = userId;
 		this.name = name;
@@ -84,11 +86,11 @@ public class User {
 		this.address = address;
 	}
 
-	public String getDateOfBirth() {
+	public Date getDateOfBirth() {
 		return dateOfBirth;
 	}
 
-	public void setDateOfBirth(String dateOfBirth) {
+	public void setDateOfBirth(Date dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 

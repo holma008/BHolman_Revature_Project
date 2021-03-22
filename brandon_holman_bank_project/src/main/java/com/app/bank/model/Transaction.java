@@ -1,6 +1,6 @@
 package com.app.bank.model;
 
-import java.util.Date;
+import java.sql.Timestamp;
 
 public class Transaction {
 
@@ -9,14 +9,14 @@ public class Transaction {
 	private int accountNum;
 	private String transactionData;
 	private String transactionType;
-	private Date timeOfTransaction;
+	private Timestamp timeOfTransaction;
 	
 	public Transaction() {
 		
 	}
 
 	public Transaction(int transactionId, int userId, int accountNum, String transactionData, String transactionType,
-			Date timeOfTransaction) {
+			Timestamp timeOfTransaction) {
 		super();
 		this.transactionId = transactionId;
 		this.userId = userId;
@@ -66,11 +66,11 @@ public class Transaction {
 		this.transactionType = transactionType;
 	}
 
-	public Date getTimeOfTransaction() {
+	public Timestamp getTimeOfTransaction() {
 		return timeOfTransaction;
 	}
 
-	public void setTimeOfTransaction(Date timeOfTransaction) {
+	public void setTimeOfTransaction(Timestamp timeOfTransaction) {
 		this.timeOfTransaction = timeOfTransaction;
 	}
 

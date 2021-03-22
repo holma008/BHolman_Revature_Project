@@ -9,25 +9,31 @@ import com.app.bank.exception.BusinessException;
 import com.app.bank.model.Account;
 import com.app.bank.model.Transaction;
 import com.app.bank.model.UnapprovedAccount;
+import com.app.bank.model.User;
+import com.app.bank.transaction.dao.TransactionDAO;
+import com.app.bank.transaction.dao.impl.TransactionDAOImpl;
 
 public class EmployeeServiceImpl implements EmployeeService{
 
 	AccountDAO accountDAO = new AccountDAOImpl();
+	TransactionDAO transactionDAO = new TransactionDAOImpl(); 
 	@Override
 	public List<UnapprovedAccount> viewUnapprovedAccounts() throws BusinessException {
 		return accountDAO.viewUnapprovedAccounts();
 	}
+	
+	@Override
+	public List<User> viewAllAccounts() throws BusinessException {
+		return accountDAO.viewAllAccounts();
+	}
 
 	@Override
 	public List<Account> viewAccountByCustomerId(int cusId) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		return accountDAO.viewAccountByCustomerId(cusId);
 	}
 
 	@Override
 	public List<Transaction> pullAllTransactionData() throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		return transactionDAO.pullAllTransactionData();
 	}
-
 }
