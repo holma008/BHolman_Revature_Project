@@ -8,4 +8,5 @@ public interface UserService {
 
 	public int registerCustomer(User user) throws BusinessException;
 	public User logIn(String email, String password) throws BusinessException;
+	public int customerExists(String email) throws BusinessException;
 }

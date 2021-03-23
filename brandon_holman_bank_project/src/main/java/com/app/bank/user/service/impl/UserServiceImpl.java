@@ -39,4 +39,12 @@ public class UserServiceImpl implements UserService{
 		user = userDAO.getCustomerLogin(email, password);
 		return user;
 	}
+
+	@Override
+	public int customerExists(String email) throws BusinessException {
+		if(!UserServiceValidations.isValidEmail(email)) {
+			throw new BusinessException("Entered email '" + email + "' is invalid");
+		}
+		return userDAO.customerExists(email);
+	}
 }

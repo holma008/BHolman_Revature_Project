@@ -7,7 +7,4 @@ public interface CustomerService {
 	
 	public int createAccount(Account account) throws BusinessException;
 	public double checkBalance(int cusId, int accountNum) throws BusinessException;
-	
-	//withdrawal with a deposit
-	public int transferFunds(int cusId, int accountSend, int accountRec) throws BusinessException;
 }

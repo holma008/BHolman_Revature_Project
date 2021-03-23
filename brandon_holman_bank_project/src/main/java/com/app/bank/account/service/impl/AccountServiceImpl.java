@@ -23,4 +23,9 @@ public class AccountServiceImpl implements AccountService {
 	public int rejectAccount(int accNum) throws BusinessException {
 		return accountDAO.rejectAccount(accNum);
 	}
+
+	@Override
+	public boolean accountExists(int user, int accNum) throws BusinessException {
+		return accountDAO.accountExists(user, accNum);
+	}
 }

@@ -23,10 +23,4 @@ public class CustomerServiceImpl implements CustomerService{
 	public double checkBalance(int cusId, int accountNum) throws BusinessException {
 		return accountDAO.checkBalance(cusId, accountNum);
 	}
-
-	@Override
-	public int transferFunds(int cusId, int accountSend, int accountRec) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 }

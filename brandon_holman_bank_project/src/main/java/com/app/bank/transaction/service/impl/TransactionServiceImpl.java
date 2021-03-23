@@ -19,15 +19,7 @@ public class TransactionServiceImpl implements TransactionService{
 	}
 
 	@Override
-	public int TransferInitiated(int cusId, int accountNum) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+	public int Transfer(int userId, int accNum, int reciever, int rNum, double transferAmt) throws BusinessException{
+		return transactionDAO.Transfer(userId, accNum, reciever, rNum, transferAmt);
 	}
-
-	@Override
-	public int TransferAccepted(int cusId, int accountNum) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
 }

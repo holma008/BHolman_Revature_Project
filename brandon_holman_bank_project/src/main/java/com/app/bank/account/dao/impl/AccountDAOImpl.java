@@ -61,17 +61,36 @@ public class AccountDAOImpl implements AccountDAO {
 		}
 		return c;
 	}
-
+	
+	@Override
+	public boolean accountExists(int user, int accNum) throws BusinessException {
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql = "Select from bank_schema.accounts where accountholder =? and accountnum =?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, user);
+			preparedStatement.setInt(2, accNum);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				return true;
+			}else {
+				return false;
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured, please contact sysadmin");
+		}
+	}
+	
 	@Override
 	public int createAccount(Account account) throws BusinessException {
 		int c = 0;
 		try (Connection connection = PostgresConnection.getConnection()) {
-			String sql = "Insert into bank_schema.accounts(balance, accountholder, approved, opened) values(?,?,?,?)";
+			String sql = "Insert into bank_schema.accounts(balance, accountholder, approved, opened, accepttrans) values(?,?,?,?,?)";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setDouble(1, account.getBalance());
 			preparedStatement.setInt(2, account.getAccountHolderId());
 			preparedStatement.setBoolean(3, false);
 			preparedStatement.setDate(4, new Date(System.currentTimeMillis()));
+			preparedStatement.setBoolean(5, true);
 			c = preparedStatement.executeUpdate();
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new BusinessException("Internal error occured, please contact sysadmin");
@@ -83,10 +102,11 @@ public class AccountDAOImpl implements AccountDAO {
 	public double checkBalance(int cusId, int accountNum) throws BusinessException {
 		Double balance = null;
 		try (Connection connection = PostgresConnection.getConnection()) {
-			String sql = "select balance from bank_schema.accounts where accountholder =? and accountnum=?";
+			String sql = "select balance from bank_schema.accounts where accountholder =? and accountnum=? and approved =?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, cusId);
 			preparedStatement.setInt(2, accountNum);
+			preparedStatement.setBoolean(3, true);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			while (resultSet.next()) {
 				balance = resultSet.getDouble("balance");
@@ -94,13 +114,10 @@ public class AccountDAOImpl implements AccountDAO {
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new BusinessException("Internal error occured, please contact sysadmin");
 		}
+		if(balance == null) {
+			balance = 0D;
+		}
 		return balance;
-	}
-
-	@Override
-	public int transferFunds(int cusId, int accountSend, int accountRec) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 
 	@Override

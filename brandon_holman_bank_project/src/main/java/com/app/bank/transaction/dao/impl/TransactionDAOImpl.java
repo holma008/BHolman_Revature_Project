@@ -81,14 +81,24 @@ public class TransactionDAOImpl implements TransactionDAO{
 	}
 
 	@Override
-	public int TransferInitiated(int cusId, int accountNum) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+	public int Transfer(int cusId, int accountNum, int reciever, int rNum, double transfer) throws BusinessException {
+		int c = 0;
+		Calendar calendar = Calendar.getInstance();
+		Timestamp timestamp = new Timestamp(calendar.getTime().getTime());
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql = "insert into bank_schema.transactions (userid, accountid, transactiondata, type, timeof) values(?,?,?,?,?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, cusId);
+			preparedStatement.setInt(2, accountNum);
+			preparedStatement.setString(3, "user deposited $"+ transfer + " from their account number " + accountNum + " into customer " + reciever + " account number " + rNum);
+			preparedStatement.setString(4, "transfer");
+			preparedStatement.setTimestamp(5, timestamp);
+			c = preparedStatement.executeUpdate();
+		}catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal error occured, please contact sysadmin");
+		}
+		return c;
 	}
 
-	@Override
-	public int TransferAccepted(int cusId, int accountNum) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 }

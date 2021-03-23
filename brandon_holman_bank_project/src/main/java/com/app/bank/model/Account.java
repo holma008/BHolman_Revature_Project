@@ -10,6 +10,7 @@ public class Account {
 	private boolean approved;
 	private int approvedById;
 	private Date opened;
+	private Boolean acceptTrans;
 
 	public Account() {
 		
@@ -72,6 +73,14 @@ public class Account {
 
 	public void setOpened(Date opened) {
 		this.opened = opened;
+	}
+
+	public Boolean getAcceptTrans() {
+		return acceptTrans;
+	}
+
+	public void setAcceptTrans(Boolean acceptTrans) {
+		this.acceptTrans = acceptTrans;
 	}
 
 	@Override

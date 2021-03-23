@@ -49,11 +49,28 @@ public class UserDAOImpl implements UserDAO{
 				user.setUserType(resultSet.getString("usertype"));
 			}
 			if(user == null) {
-				throw new BusinessException("no customer found with email and password combination");
+				throw new BusinessException("no user found with email and password combination");
 			}
 		}catch(ClassNotFoundException | SQLException e) {
 			throw new BusinessException("Internal Error");
 		}
 		return user;
+	}
+
+	@Override
+	public int customerExists(String email) throws BusinessException {
+		int r = 0;
+		try(Connection connection = PostgresConnection.getConnection()){
+			String sql = "select userid from bank_schema.user_table where email =?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, email);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				r = resultSet.getInt("userid");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal Error");
+		}
+		return r;
 	}
 }
