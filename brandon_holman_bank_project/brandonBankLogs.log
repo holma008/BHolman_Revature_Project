@@ -1,0 +1,954 @@
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 09:44:05
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 09:44:05
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 09:44:05
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 09:44:05
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 09:44:05
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 09:44:05
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 09:44:08
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 09:44:14
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 09:44:18
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 1 unapproved account(s)     Mar-24-21 Wednesday MDT 09:44:20
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 09:44:20
+{INFO} -  [com.app.bank.main.BankMain]   -     2)return to employee menu     Mar-24-21 Wednesday MDT 09:44:20
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 09:44:20
+{INFO} -  [com.app.bank.main.BankMain]   -     UnapprovedAccount [accountNum=18, applicantName=brandon, balance=1264.24]     Mar-24-21 Wednesday MDT 09:44:21
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 1 to approve, 2 to reject, 3 to return to employee menu     Mar-24-21 Wednesday MDT 09:44:21
+{INFO} -  [com.app.bank.main.BankMain]   -     account approved     Mar-24-21 Wednesday MDT 09:44:24
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 0 unapproved account(s)     Mar-24-21 Wednesday MDT 09:44:24
+{INFO} -  [com.app.bank.main.BankMain]   -     1)return to employee menu     Mar-24-21 Wednesday MDT 09:44:24
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 09:44:24
+{WARN} -  [com.app.bank.main.BankMain]   -     invalid choice     Mar-24-21 Wednesday MDT 09:44:27
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 0 unapproved account(s)     Mar-24-21 Wednesday MDT 09:44:27
+{INFO} -  [com.app.bank.main.BankMain]   -     1)return to employee menu     Mar-24-21 Wednesday MDT 09:44:27
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 09:44:27
+{WARN} -  [com.app.bank.main.BankMain]   -     choice should be number only     Mar-24-21 Wednesday MDT 09:44:29
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 0 unapproved account(s)     Mar-24-21 Wednesday MDT 09:44:29
+{INFO} -  [com.app.bank.main.BankMain]   -     1)return to employee menu     Mar-24-21 Wednesday MDT 09:44:29
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 09:44:29
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 09:44:31
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main     Mar-24-21 Wednesday MDT 09:44:32
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 09:44:32
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 09:44:32
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 09:44:32
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 09:44:32
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 09:44:32
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 09:44:32
+{INFO} -  [com.app.bank.main.BankMain]   -     Goodbye     Mar-24-21 Wednesday MDT 09:44:34
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:13:53
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:13:53
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:13:53
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:13:53
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:13:53
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:13:53
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:13:55
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:14:00
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:14:03
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:14:06
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:18:51
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:18:51
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:18:51
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:18:51
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:18:51
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:18:51
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:18:53
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:18:58
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:19:04
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:19:06
+{WARN} -  [com.app.bank.main.BankMain]   -     enter valid money amount     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:19:09
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:19:53
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:19:53
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:19:53
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:19:53
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:19:53
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:19:53
+{WARN} -  [com.app.bank.main.BankMain]   -     choice should be number only     Mar-24-21 Wednesday MDT 14:19:55
+{WARN} -  [com.app.bank.main.BankMain]   -     invalid choice     Mar-24-21 Wednesday MDT 14:19:55
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:19:55
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:19:55
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:19:55
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:19:55
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:19:55
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:19:55
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:21:48
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:21:48
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:21:48
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:21:48
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:21:48
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:21:48
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:21:50
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:21:54
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:21:57
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:22:00
+{WARN} -  [com.app.bank.main.BankMain]   -     enter valid money amount     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:22:03
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:22:27
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:22:27
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:22:27
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:22:27
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:22:27
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:22:27
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:22:29
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:22:33
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:22:35
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:22:37
+{WARN} -  [com.app.bank.main.BankMain]   -     enter valid money amount     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:22:38
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:23:45
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:23:45
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:23:45
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:23:45
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:23:45
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:23:45
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:23:47
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:23:52
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:23:55
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:23:58
+{WARN} -  [com.app.bank.main.BankMain]   -     enter valid money amount     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:24:00
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main menu     Mar-24-21 Wednesday MDT 14:24:06
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:24:06
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:24:06
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:24:06
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:24:06
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:24:06
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:24:06
+{INFO} -  [com.app.bank.main.BankMain]   -     Goodbye     Mar-24-21 Wednesday MDT 14:24:07
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:29:55
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:29:55
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:29:55
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:29:55
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:29:55
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:29:55
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:29:57
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:30:02
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:30:05
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:30:06
+{WARN} -  [com.app.bank.main.BankMain]   -     enter numbers only     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:30:08
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:30:14
+{INFO} -  [com.app.bank.main.BankMain]   -     account successfully applied for, an employee will review and approve or reject     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:30:18
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main menu     Mar-24-21 Wednesday MDT 14:30:32
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:30:32
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:30:32
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:30:32
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:30:32
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:30:32
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:30:32
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:31:26
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:31:32
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:31:34
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 1 unapproved account(s)     Mar-24-21 Wednesday MDT 14:31:36
+{INFO} -  [com.app.bank.main.BankMain]   -     1)ashley     Mar-24-21 Wednesday MDT 14:31:36
+{INFO} -  [com.app.bank.main.BankMain]   -     2)return to employee menu     Mar-24-21 Wednesday MDT 14:31:36
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:31:36
+{INFO} -  [com.app.bank.main.BankMain]   -     UnapprovedAccount [accountNum=19, applicantName=ashley, balance=15567.12]     Mar-24-21 Wednesday MDT 14:31:39
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 1 to approve, 2 to reject, 3 to return to employee menu     Mar-24-21 Wednesday MDT 14:31:39
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:31:54
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 1 unapproved account(s)     Mar-24-21 Wednesday MDT 14:31:54
+{INFO} -  [com.app.bank.main.BankMain]   -     1)ashley     Mar-24-21 Wednesday MDT 14:31:54
+{INFO} -  [com.app.bank.main.BankMain]   -     2)return to employee menu     Mar-24-21 Wednesday MDT 14:31:54
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:31:54
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:32:02
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 1 unapproved account(s)     Mar-24-21 Wednesday MDT 14:32:23
+{INFO} -  [com.app.bank.main.BankMain]   -     1)ashley     Mar-24-21 Wednesday MDT 14:32:23
+{INFO} -  [com.app.bank.main.BankMain]   -     2)return to employee menu     Mar-24-21 Wednesday MDT 14:32:23
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:32:23
+{INFO} -  [com.app.bank.main.BankMain]   -     UnapprovedAccount [accountNum=19, applicantName=ashley, balance=15567.12]     Mar-24-21 Wednesday MDT 14:32:25
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 1 to approve, 2 to reject, 3 to return to employee menu     Mar-24-21 Wednesday MDT 14:32:25
+{INFO} -  [com.app.bank.main.BankMain]   -     account approved     Mar-24-21 Wednesday MDT 14:32:27
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 0 unapproved account(s)     Mar-24-21 Wednesday MDT 14:32:27
+{INFO} -  [com.app.bank.main.BankMain]   -     1)return to employee menu     Mar-24-21 Wednesday MDT 14:32:27
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:32:27
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:32:29
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 3 registered customer(s)     Mar-24-21 Wednesday MDT 14:32:31
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:32:31
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:32:31
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:32:31
+{INFO} -  [com.app.bank.main.BankMain]   -     4)return to employee menu     Mar-24-21 Wednesday MDT 14:32:31
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:32:31
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 19, account balance : 15567.12, date opened : 2021-03-24     Mar-24-21 Wednesday MDT 14:32:38
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 3 registered customer(s)     Mar-24-21 Wednesday MDT 14:32:38
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:32:38
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:32:38
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:32:38
+{INFO} -  [com.app.bank.main.BankMain]   -     4)return to employee menu     Mar-24-21 Wednesday MDT 14:32:38
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:32:38
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 17, account balance : 1042.1, date opened : 2021-03-24     Mar-24-21 Wednesday MDT 14:32:53
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 3 registered customer(s)     Mar-24-21 Wednesday MDT 14:32:53
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:32:53
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:32:53
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:32:53
+{INFO} -  [com.app.bank.main.BankMain]   -     4)return to employee menu     Mar-24-21 Wednesday MDT 14:32:53
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:32:53
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 18, account balance : 1264.24, date opened : 2021-03-24     Mar-24-21 Wednesday MDT 14:33:05
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 3 registered customer(s)     Mar-24-21 Wednesday MDT 14:33:05
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:33:05
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:33:05
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:33:05
+{INFO} -  [com.app.bank.main.BankMain]   -     4)return to employee menu     Mar-24-21 Wednesday MDT 14:33:05
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:33:05
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:33:15
+{INFO} -  [com.app.bank.main.BankMain]   -     Printing all transactions     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     Transaction [transactionId=22, userId=12, accountNum=17, transactionData=user withdrew $253.26 from account number 17, transactionType=withdrawl, timeOfTransaction=2021-03-24 09:38:05.0]     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     Transaction [transactionId=23, userId=12, accountNum=17, transactionData=user deposited $95.36 into account number 17, transactionType=deposit, timeOfTransaction=2021-03-24 09:38:34.0]     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:33:20
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main     Mar-24-21 Wednesday MDT 14:36:21
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:36:21
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:36:21
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:36:21
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:36:21
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:36:21
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:36:21
+{INFO} -  [com.app.bank.main.BankMain]   -     Goodbye     Mar-24-21 Wednesday MDT 14:36:29
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:36:34
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:36:34
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:36:34
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:36:34
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:36:34
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:36:34
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:36:36
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:36:43
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:36:48
+{INFO} -  [com.app.bank.main.BankMain]   -     enter the number of the account you wish to view the balance of     Mar-24-21 Wednesday MDT 14:36:52
+{INFO} -  [com.app.bank.main.BankMain]   -     the balance of your account number 18: 1264.24     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:37:02
+{INFO} -  [com.app.bank.main.BankMain]   -     enter the number of the account from which you wish to withdraw funds     Mar-24-21 Wednesday MDT 14:37:10
+{INFO} -  [com.app.bank.main.BankMain]   -     current balance of your account number 18: 1264.24     Mar-24-21 Wednesday MDT 14:37:15
+{INFO} -  [com.app.bank.main.BankMain]   -     enter ammount to withdraw     Mar-24-21 Wednesday MDT 14:37:15
+{WARN} -  [com.app.bank.main.BankMain]   -     enter numbers only     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:37:17
+{INFO} -  [com.app.bank.main.BankMain]   -     enter the number of the account from which you wish to withdraw funds     Mar-24-21 Wednesday MDT 14:37:23
+{INFO} -  [com.app.bank.main.BankMain]   -     current balance of your account number 18: 1264.24     Mar-24-21 Wednesday MDT 14:37:27
+{INFO} -  [com.app.bank.main.BankMain]   -     enter ammount to withdraw     Mar-24-21 Wednesday MDT 14:37:27
+{WARN} -  [com.app.bank.main.BankMain]   -     invalid entry, account does not have sufficient funds     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:37:33
+{INFO} -  [com.app.bank.main.BankMain]   -     enter the number of the account from which you wish to withdraw funds     Mar-24-21 Wednesday MDT 14:37:48
+{INFO} -  [com.app.bank.main.BankMain]   -     current balance of your account number 18: 1264.24     Mar-24-21 Wednesday MDT 14:37:52
+{INFO} -  [com.app.bank.main.BankMain]   -     enter ammount to withdraw     Mar-24-21 Wednesday MDT 14:37:52
+{WARN} -  [com.app.bank.main.BankMain]   -     invalid entry, cannot withdraw negative funds     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:37:56
+{INFO} -  [com.app.bank.main.BankMain]   -     enter the number of the account into which you wish to deposit funds     Mar-24-21 Wednesday MDT 14:38:06
+{INFO} -  [com.app.bank.main.BankMain]   -     current balance of your account number 18: 1264.24     Mar-24-21 Wednesday MDT 14:38:09
+{INFO} -  [com.app.bank.main.BankMain]   -     enter ammount to deposit     Mar-24-21 Wednesday MDT 14:38:09
+{INFO} -  [com.app.bank.main.BankMain]   -     deposit successful, new balance: 6264.88     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:38:18
+{INFO} -  [com.app.bank.main.BankMain]   -     enter the number of the account from which you wish to transfer funds     Mar-24-21 Wednesday MDT 14:38:29
+{INFO} -  [com.app.bank.main.BankMain]   -     current balance of your account number 18: 6264.88     Mar-24-21 Wednesday MDT 14:38:34
+{INFO} -  [com.app.bank.main.BankMain]   -     enter amount to transfer     Mar-24-21 Wednesday MDT 14:38:34
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email of customer you wish to transfer money     Mar-24-21 Wednesday MDT 14:38:38
+{INFO} -  [com.app.bank.main.BankMain]   -     customer found, please enter account number you wish to deposit money into     Mar-24-21 Wednesday MDT 14:38:45
+{INFO} -  [com.app.bank.main.BankMain]   -     customer account 25 not located     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:39:01
+{INFO} -  [com.app.bank.main.BankMain]   -     enter the number of the account from which you wish to transfer funds     Mar-24-21 Wednesday MDT 14:39:30
+{INFO} -  [com.app.bank.main.BankMain]   -     current balance of your account number 18: 6264.88     Mar-24-21 Wednesday MDT 14:39:32
+{INFO} -  [com.app.bank.main.BankMain]   -     enter amount to transfer     Mar-24-21 Wednesday MDT 14:39:32
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email of customer you wish to transfer money     Mar-24-21 Wednesday MDT 14:39:38
+{INFO} -  [com.app.bank.main.BankMain]   -     customer found, please enter account number you wish to deposit money into     Mar-24-21 Wednesday MDT 14:39:43
+{INFO} -  [com.app.bank.main.BankMain]   -     transfer successful     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:39:56
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main menu     Mar-24-21 Wednesday MDT 14:40:13
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:40:13
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:40:13
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:40:13
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:40:13
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:40:13
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:40:13
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:40:15
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:40:21
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:40:23
+{INFO} -  [com.app.bank.main.BankMain]   -     Printing all transactions     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     Transaction [transactionId=22, userId=12, accountNum=17, transactionData=user withdrew $253.26 from account number 17, transactionType=withdrawl, timeOfTransaction=2021-03-24 09:38:05.0]     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     Transaction [transactionId=23, userId=12, accountNum=17, transactionData=user deposited $95.36 into account number 17, transactionType=deposit, timeOfTransaction=2021-03-24 09:38:34.0]     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     Transaction [transactionId=24, userId=9, accountNum=18, transactionData=user deposited $5000.64 into account number 18, transactionType=deposit, timeOfTransaction=2021-03-24 14:38:18.0]     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     Transaction [transactionId=25, userId=9, accountNum=18, transactionData=user deposited $150.0 from their account number 18 into customer 12 account number 17, transactionType=transfer, timeOfTransaction=2021-03-24 14:39:57.0]     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:40:25
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main     Mar-24-21 Wednesday MDT 14:41:01
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:41:01
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:41:01
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:41:01
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:41:01
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:41:01
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:41:01
+{INFO} -  [com.app.bank.main.BankMain]   -     Goodbye     Mar-24-21 Wednesday MDT 14:41:02
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:42:11
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:42:11
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:42:11
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:42:11
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:42:11
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:42:11
+{INFO} -  [com.app.bank.main.BankMain]   -     enter name     Mar-24-21 Wednesday MDT 14:42:14
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:42:20
+{INFO} -  [com.app.bank.main.BankMain]   -     choose password, must contain at least 1 number and no spaces     Mar-24-21 Wednesday MDT 14:42:25
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 10 digit phone number     Mar-24-21 Wednesday MDT 14:42:30
+{INFO} -  [com.app.bank.main.BankMain]   -     enter address     Mar-24-21 Wednesday MDT 14:42:35
+{INFO} -  [com.app.bank.main.BankMain]   -     enter date of birth mm-dd-yyyy     Mar-24-21 Wednesday MDT 14:42:40
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:42:56
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:42:56
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:42:56
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:42:56
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:42:56
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:42:56
+{INFO} -  [com.app.bank.main.BankMain]   -     enter name     Mar-24-21 Wednesday MDT 14:42:59
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:43:03
+{INFO} -  [com.app.bank.main.BankMain]   -     choose password, must contain at least 1 number and no spaces     Mar-24-21 Wednesday MDT 14:43:09
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 10 digit phone number     Mar-24-21 Wednesday MDT 14:43:10
+{INFO} -  [com.app.bank.main.BankMain]   -     enter address     Mar-24-21 Wednesday MDT 14:43:11
+{INFO} -  [com.app.bank.main.BankMain]   -     enter date of birth mm-dd-yyyy     Mar-24-21 Wednesday MDT 14:43:12
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:43:17
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:43:17
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:43:17
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:43:17
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:43:17
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:43:17
+{INFO} -  [com.app.bank.main.BankMain]   -     enter name     Mar-24-21 Wednesday MDT 14:43:19
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:43:22
+{INFO} -  [com.app.bank.main.BankMain]   -     choose password, must contain at least 1 number and no spaces     Mar-24-21 Wednesday MDT 14:43:27
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 10 digit phone number     Mar-24-21 Wednesday MDT 14:43:33
+{INFO} -  [com.app.bank.main.BankMain]   -     enter address     Mar-24-21 Wednesday MDT 14:43:37
+{INFO} -  [com.app.bank.main.BankMain]   -     enter date of birth mm-dd-yyyy     Mar-24-21 Wednesday MDT 14:43:41
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer registered successfully     Mar-24-21 Wednesday MDT 14:43:53
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:43:53
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:43:53
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:43:53
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:43:53
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:43:53
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:43:53
+{INFO} -  [com.app.bank.main.BankMain]   -     Goodbye     Mar-24-21 Wednesday MDT 14:43:59
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:44:46
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:44:46
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:44:46
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:44:46
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:44:46
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:44:46
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:44:48
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:44:53
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:44:56
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:44:58
+{INFO} -  [com.app.bank.main.BankMain]   -     account successfully applied for, an employee will review and approve or reject     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:45:05
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main menu     Mar-24-21 Wednesday MDT 14:45:10
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:45:10
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:45:10
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:45:10
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:45:10
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:45:10
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:45:10
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:45:11
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:45:19
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:45:22
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 1 unapproved account(s)     Mar-24-21 Wednesday MDT 14:45:24
+{INFO} -  [com.app.bank.main.BankMain]   -     1)alicia     Mar-24-21 Wednesday MDT 14:45:24
+{INFO} -  [com.app.bank.main.BankMain]   -     2)return to employee menu     Mar-24-21 Wednesday MDT 14:45:24
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:45:24
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:45:26
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:45:30
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:45:30
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:45:30
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:45:30
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:45:30
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:45:30
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:45:30
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 20, account balance : 156.23, date opened : 2021-03-24     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:45:33
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:45:45
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 1 unapproved account(s)     Mar-24-21 Wednesday MDT 14:45:48
+{INFO} -  [com.app.bank.main.BankMain]   -     1)alicia     Mar-24-21 Wednesday MDT 14:45:48
+{INFO} -  [com.app.bank.main.BankMain]   -     2)return to employee menu     Mar-24-21 Wednesday MDT 14:45:48
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:45:48
+{INFO} -  [com.app.bank.main.BankMain]   -     UnapprovedAccount [accountNum=20, applicantName=alicia, balance=156.23]     Mar-24-21 Wednesday MDT 14:45:49
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 1 to approve, 2 to reject, 3 to return to employee menu     Mar-24-21 Wednesday MDT 14:45:49
+{INFO} -  [com.app.bank.main.BankMain]   -     account approved     Mar-24-21 Wednesday MDT 14:45:55
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 0 unapproved account(s)     Mar-24-21 Wednesday MDT 14:45:55
+{INFO} -  [com.app.bank.main.BankMain]   -     1)return to employee menu     Mar-24-21 Wednesday MDT 14:45:55
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:45:55
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:45:57
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main     Mar-24-21 Wednesday MDT 14:45:59
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:45:59
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:45:59
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:45:59
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:45:59
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:45:59
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:45:59
+{INFO} -  [com.app.bank.main.BankMain]   -     Goodbye     Mar-24-21 Wednesday MDT 14:46:00
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:47:53
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:47:53
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:47:53
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:47:53
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:47:53
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:47:53
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:47:55
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:48:03
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:48:05
+{INFO} -  [com.app.bank.main.BankMain]   -     Applying for an account
+Enter starting balance of account     Mar-24-21 Wednesday MDT 14:48:08
+{INFO} -  [com.app.bank.main.BankMain]   -     account successfully applied for, an employee will review and approve or reject     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer Options Menu     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------------------     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     1) apply for account     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view balance of account     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     3) make withdrawl     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     4) make deposit     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     5) transfer money     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     6) return to main menu     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-6)     Mar-24-21 Wednesday MDT 14:48:14
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main menu     Mar-24-21 Wednesday MDT 14:48:19
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:48:19
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:48:19
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:48:19
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:48:19
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:48:19
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:48:19
+{INFO} -  [com.app.bank.main.BankMain]   -     enter name     Mar-24-21 Wednesday MDT 14:48:22
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:48:24
+{INFO} -  [com.app.bank.main.BankMain]   -     choose password, must contain at least 1 number and no spaces     Mar-24-21 Wednesday MDT 14:48:24
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 10 digit phone number     Mar-24-21 Wednesday MDT 14:48:24
+{INFO} -  [com.app.bank.main.BankMain]   -     enter address     Mar-24-21 Wednesday MDT 14:48:24
+{INFO} -  [com.app.bank.main.BankMain]   -     enter date of birth mm-dd-yyyy     Mar-24-21 Wednesday MDT 14:48:24
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:48:27
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:48:27
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:48:27
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:48:27
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:48:27
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:48:27
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:48:30
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:48:36
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:48:38
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:48:43
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:48:43
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:48:43
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:48:43
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:48:43
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:48:43
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:48:43
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 20, account balance : 156.23, date opened : 2021-03-24, approved : false     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 21, account balance : 1520.2, date opened : 2021-03-24, approved : false     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:48:45
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 20, account balance : 156.23, date opened : 2021-03-24, approved : false     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 21, account balance : 1520.2, date opened : 2021-03-24, approved : false     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:49:08
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:51:50
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:51:50
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:51:50
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:51:50
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:51:50
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:51:50
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:51:54
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:51:59
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:52:00
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:52:03
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:52:03
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:52:03
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:52:03
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:52:03
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:52:03
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:52:03
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:55:42
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:55:42
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:55:42
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:55:42
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:55:42
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:55:42
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:55:44
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:55:49
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:55:52
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:55:54
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:55:54
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:55:54
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:55:54
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:55:54
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:55:54
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:55:54
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 20, account balance : 156.23, date opened : 2021-03-24, approved : false     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:55:57
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:56:11
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 1 unapproved account(s)     Mar-24-21 Wednesday MDT 14:56:13
+{INFO} -  [com.app.bank.main.BankMain]   -     1)alicia     Mar-24-21 Wednesday MDT 14:56:13
+{INFO} -  [com.app.bank.main.BankMain]   -     2)return to employee menu     Mar-24-21 Wednesday MDT 14:56:13
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:56:13
+{INFO} -  [com.app.bank.main.BankMain]   -     UnapprovedAccount [accountNum=21, applicantName=alicia, balance=1520.2]     Mar-24-21 Wednesday MDT 14:56:14
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 1 to approve, 2 to reject, 3 to return to employee menu     Mar-24-21 Wednesday MDT 14:56:14
+{INFO} -  [com.app.bank.main.BankMain]   -     account approved     Mar-24-21 Wednesday MDT 14:56:18
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 0 unapproved account(s)     Mar-24-21 Wednesday MDT 14:56:18
+{INFO} -  [com.app.bank.main.BankMain]   -     1)return to employee menu     Mar-24-21 Wednesday MDT 14:56:18
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 14:56:18
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:56:19
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:56:22
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:56:22
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:56:22
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:56:22
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:56:22
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:56:22
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:56:22
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 20, account balance : 156.23, date opened : 2021-03-24, approved : false     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     account number : 21, account balance : 1520.2, date opened : 2021-03-24, approved : false     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 4 registered customer(s)     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     5)return to employee menu     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:56:24
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:56:29
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to main     Mar-24-21 Wednesday MDT 14:56:30
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:56:30
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:56:30
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:56:30
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:56:30
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:56:30
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:56:30
+{INFO} -  [com.app.bank.main.BankMain]   -     Goodbye     Mar-24-21 Wednesday MDT 14:56:31
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:57:26
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:57:26
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:57:26
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:57:26
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:57:26
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:57:26
+{INFO} -  [com.app.bank.main.BankMain]   -     enter name     Mar-24-21 Wednesday MDT 14:57:28
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:57:32
+{INFO} -  [com.app.bank.main.BankMain]   -     choose password, must contain at least 1 number and no spaces     Mar-24-21 Wednesday MDT 14:57:36
+{INFO} -  [com.app.bank.main.BankMain]   -     enter 10 digit phone number     Mar-24-21 Wednesday MDT 14:57:40
+{INFO} -  [com.app.bank.main.BankMain]   -     enter address     Mar-24-21 Wednesday MDT 14:57:44
+{INFO} -  [com.app.bank.main.BankMain]   -     enter date of birth mm-dd-yyyy     Mar-24-21 Wednesday MDT 14:57:55
+{INFO} -  [com.app.bank.main.BankMain]   -     Customer registered successfully     Mar-24-21 Wednesday MDT 14:58:04
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:58:04
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:58:04
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:58:04
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:58:04
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:58:04
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:58:04
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:58:13
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 14:58:19
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 14:58:22
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 5 registered customer(s)     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     5)bob     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     6)return to employee menu     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:58:27
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 5 registered customer(s)     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     5)bob     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     6)return to employee menu     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 14:58:30
+{INFO} -  [com.app.bank.main.BankMain]   -     Bank Menu     Mar-24-21 Wednesday MDT 14:59:55
+{INFO} -  [com.app.bank.main.BankMain]   -     ------------     Mar-24-21 Wednesday MDT 14:59:55
+{INFO} -  [com.app.bank.main.BankMain]   -     1) create customer account     Mar-24-21 Wednesday MDT 14:59:55
+{INFO} -  [com.app.bank.main.BankMain]   -     2) log in to existing account     Mar-24-21 Wednesday MDT 14:59:55
+{INFO} -  [com.app.bank.main.BankMain]   -     3) exit program     Mar-24-21 Wednesday MDT 14:59:55
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-3)     Mar-24-21 Wednesday MDT 14:59:55
+{INFO} -  [com.app.bank.main.BankMain]   -     enter email     Mar-24-21 Wednesday MDT 14:59:58
+{INFO} -  [com.app.bank.main.BankMain]   -     enter password     Mar-24-21 Wednesday MDT 15:00:02
+{INFO} -  [com.app.bank.main.BankMain]   -     login successful     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 15:00:04
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 5 registered customer(s)     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     5)bob     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     6)return to employee menu     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 15:00:07
+{INFO} -  [com.app.bank.main.BankMain]   -     customer has 0 approved accounts     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 5 registered customer(s)     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     1)brandon     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     2)greg     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     3)ashley     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     4)alicia     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     5)bob     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     6)return to employee menu     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of customer to view accounts or exit     Mar-24-21 Wednesday MDT 15:00:08
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 15:00:18
+{INFO} -  [com.app.bank.main.BankMain]   -     there are 0 unapproved account(s)     Mar-24-21 Wednesday MDT 15:00:20
+{INFO} -  [com.app.bank.main.BankMain]   -     1)return to employee menu     Mar-24-21 Wednesday MDT 15:00:20
+{INFO} -  [com.app.bank.main.BankMain]   -     enter choice of application to view or exit     Mar-24-21 Wednesday MDT 15:00:20
+{INFO} -  [com.app.bank.main.BankMain]   -     returning to employee menu     Mar-24-21 Wednesday MDT 15:00:26
+{INFO} -  [com.app.bank.main.BankMain]   -     Employee Options Menu     Mar-24-21 Wednesday MDT 15:00:26
+{INFO} -  [com.app.bank.main.BankMain]   -     -----------------------     Mar-24-21 Wednesday MDT 15:00:26
+{INFO} -  [com.app.bank.main.BankMain]   -     1) view account applications     Mar-24-21 Wednesday MDT 15:00:26
+{INFO} -  [com.app.bank.main.BankMain]   -     2) view customer accounts     Mar-24-21 Wednesday MDT 15:00:26
+{INFO} -  [com.app.bank.main.BankMain]   -     3) view transaction log     Mar-24-21 Wednesday MDT 15:00:26
+{INFO} -  [com.app.bank.main.BankMain]   -     4) return to main menu     Mar-24-21 Wednesday MDT 15:00:26
+{INFO} -  [com.app.bank.main.BankMain]   -     please enter an appropriate option(1-4)     Mar-24-21 Wednesday MDT 15:00:26

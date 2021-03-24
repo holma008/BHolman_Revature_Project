@@ -20,7 +20,7 @@ public class AccountDAOImpl implements AccountDAO {
 	@Override
 	public int updateAccountBalance(int accNum, double balance) throws BusinessException {
 		int c = 0;
-		try(Connection connection = PostgresConnection.getConnection()){
+		try(Connection connection = PostgresConnection.getConnection();){
 			String sql = "update bank_schema.accounts set balance =? where accountnum =?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setDouble(1, balance);
@@ -115,7 +115,7 @@ public class AccountDAOImpl implements AccountDAO {
 			throw new BusinessException("Internal error occured, please contact sysadmin");
 		}
 		if(balance == null) {
-			balance = 0D;
+			balance = -1D;
 		}
 		return balance;
 	}
@@ -163,9 +163,10 @@ public class AccountDAOImpl implements AccountDAO {
 	public List<Account> viewAccountByCustomerId(int cusId) throws BusinessException {
 		List<Account> customerAccounts = new ArrayList<>();
 		try (Connection connection = PostgresConnection.getConnection()) {
-			String sql = "Select accountnum, balance, opened from bank_schema.accounts where accountholder =?";
+			String sql = "Select accountnum, balance, opened from bank_schema.accounts where accountholder =? and approved =?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, cusId);
+			preparedStatement.setBoolean(2, true);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			while (resultSet.next()) {
 				Account account = new Account();

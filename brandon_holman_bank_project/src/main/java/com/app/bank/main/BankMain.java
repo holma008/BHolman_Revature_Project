@@ -4,6 +4,7 @@ import java.sql.Date;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -85,9 +86,9 @@ public class BankMain {
 				String email = scanner.nextLine();
 				log.info("enter password");
 				String password = scanner.nextLine();
-				User u = new User();// retrieve user information
+				User u = new User();
 				try {
-					u = userService.logIn(email, password);
+					u = userService.logIn(email, password);// retrieves user information if exists
 					if (u != null) {
 						log.info("login successful");
 					}
@@ -114,9 +115,9 @@ public class BankMain {
 							// apply for account with starting balance
 							Account account = new Account();
 							log.info("Applying for an account\nEnter starting balance of account");
-							// get account details
 							try {
-								balance = Integer.parseInt(scanner.nextLine());
+								balance = scanner.nextDouble();
+								scanner.nextLine();
 								account.setBalance(balance);
 								account.setAccountHolderId(u.getUserId());
 								try {
@@ -127,8 +128,9 @@ public class BankMain {
 								} catch (BusinessException e) {
 									log.warn(e.getMessage());
 								}
-							} catch (NumberFormatException e) {
-								log.warn("choice should be number only");
+							} catch (InputMismatchException e) {
+								log.warn("enter numbers only");
+								scanner.nextLine();
 							}
 							break;
 						case 2:
@@ -146,8 +148,9 @@ public class BankMain {
 									log.warn(e.getMessage());
 								}
 								balance = customerService.checkBalance(u.getUserId(), accNum);
-								if (balance == 0) {
-									log.warn("account not yet approved");
+								if (balance < 0) {
+									log.warn("account not yet approved");// returns a negative number if the account
+																			// exists but is not approved
 									break;
 								}
 								log.info("the balance of your account number " + accNum + ": " + balance);
@@ -167,19 +170,22 @@ public class BankMain {
 									break;
 								}
 								balance = customerService.checkBalance(u.getUserId(), accNum);
-								if (balance == 0) {
+								if (balance < 0) {// if the account hasn't been approved by an employee if will return a
+													// negative number
 									log.warn("account not yet approved");
 									break;
 								}
 								log.info("current balance of your account number " + accNum + ": " + balance);
 							} catch (NumberFormatException e) {
-								log.warn("choice should be number only");
+								log.warn("choice should be integer only");
+								break;
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
 							}
 							log.info("enter ammount to withdraw");
 							try {
-								double withdraw = Integer.parseInt(scanner.nextLine());
+								double withdraw = scanner.nextDouble();
+								scanner.nextLine();
 								if (withdraw > balance) {
 									log.warn("invalid entry, account does not have sufficient funds");
 								} else if (withdraw < 0) {
@@ -205,8 +211,9 @@ public class BankMain {
 										log.warn("choice should be number only");
 									}
 								}
-							} catch (NumberFormatException e) {
-								log.warn("choice should be number only");
+							} catch (InputMismatchException e) {
+								log.warn("enter numbers only");
+								scanner.nextLine();
 							}
 							break;
 						case 4:
@@ -219,19 +226,21 @@ public class BankMain {
 									break;
 								}
 								balance = customerService.checkBalance(u.getUserId(), accNum);
-								if (balance == 0) {
+								if (balance < 0) {
 									log.warn("account not yet approved");
 									break;
 								}
 								log.info("current balance of your account number " + accNum + ": " + balance);
 							} catch (NumberFormatException e) {
-								log.warn("choice should be number only");
+								log.warn("choice should be integer only");
+								break;
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
 							}
 							log.info("enter ammount to deposit");
 							try {
-								double deposit = Integer.parseInt(scanner.nextLine());
+								double deposit = scanner.nextDouble();
+								scanner.nextLine();
 								if (deposit < 0) {
 									log.warn("invalid entry, cannot deposit negative funds");
 								} else {
@@ -256,8 +265,9 @@ public class BankMain {
 										log.warn("choice should be number only");
 									}
 								}
-							} catch (NumberFormatException e) {
-								log.warn("choice should be number only");
+							} catch (InputMismatchException e) {
+								log.warn("enter numbers only");
+								scanner.nextLine();
 							}
 							break;
 						case 5:
@@ -269,14 +279,15 @@ public class BankMain {
 								log.info("current balance of your account number " + accNum + ": " + balance);
 							} catch (NumberFormatException e) {
 								log.warn("choice should be number only");
+								break;
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
 							}
 							log.info("enter amount to transfer");
+							int r = 0;
 							try {
-								// sql rollback
-								int r = 0;
-								double transferAmt = Integer.parseInt(scanner.nextLine());
+								double transferAmt = scanner.nextDouble();
+								scanner.nextLine();
 								if (transferAmt > balance) {
 									log.warn("invalid entry, account does not have sufficient funds");
 								} else if (transferAmt < 0) {
@@ -296,13 +307,18 @@ public class BankMain {
 												"customer found, please enter account number you wish to deposit money into");
 										int rNum = Integer.parseInt(scanner.nextLine());
 										try {
-											if (accountService.accountExists(r, rNum)) {
+											if (accountService.accountExists(r, rNum)) {// if account is found
 												double remainder = balance - transferAmt;
 												try {
-													if (transactionService.Transfer(u.getUserId(), accNum, r, rNum,
+													if (transactionService.Transfer(u.getUserId(), accNum, r, rNum, // initiate
+																													// transfer
+																													// transaction
 															transferAmt) == 1) {
 														try {
-															if (accountService.updateAccountBalance(accNum,
+															if (accountService.updateAccountBalance(accNum, // update
+																											// accounts
+																											// to new
+																											// balances
 																	remainder) == 1) {
 																double deposit = customerService.checkBalance(r, rNum);
 																deposit += transferAmt;
@@ -330,8 +346,9 @@ public class BankMain {
 										}
 									}
 								}
-							} catch (NumberFormatException e) {
-								log.warn("choice should be number only");
+							} catch (InputMismatchException e) {
+								log.warn("enter numbers only");
+								scanner.nextLine();
 							}
 							break;
 						case 6:
@@ -426,7 +443,6 @@ public class BankMain {
 								} catch (NumberFormatException e) {
 									log.warn("choice should be number only");
 								}
-								// break;
 							} while (choice != unapprovedAccountList.size() + 1);
 							break;
 						case 2:
@@ -450,10 +466,14 @@ public class BankMain {
 												User customerChosen = customerList.get(choice - 1);
 												List<Account> customerAccounts = employeeService
 														.viewAccountByCustomerId(customerChosen.getUserId());
-												for (Account a : customerAccounts) {
-													log.info("account number : " + a.getAccountNum()
-															+ ", account balance : " + a.getBalance()
-															+ ", date opened : " + a.getOpened());
+												if (customerAccounts.size() == 0) {
+													log.info("customer has 0 approved accounts");
+												} else {
+													for (Account a : customerAccounts) {
+														log.info("account number : " + a.getAccountNum()
+																+ ", account balance : " + a.getBalance()
+																+ ", date opened : " + a.getOpened());
+													}
 												}
 											}
 										} else {
